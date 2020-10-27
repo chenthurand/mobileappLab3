@@ -7,4 +7,19 @@
     <string name="title_home">La Maison</string>
     <string name="title_dashboard">Tableau de bord</string>
     <string name="title_notifications">Notifications</string>
+    <string name="chenstudentInfo">Chenthuran Dharmapalan 301077615</string>
+    <string name="clear_pen">Clear Pen</string>
+    <string name="pen_option">Use Pen</string>
+
+    <string-array name="pen_size">
+        <item>Black</item>
+        <item>White</item>
+        <item>Blue</item>
+    </string-array>
+
+    <string-array name="pen_colour">
+        <item>4f</item>
+        <item>8f</item>
+        <item>12f</item>
+    </string-array>
 </resources>
