@@ -7,12 +7,12 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context=".chenthuranActivity">
+    tools:context=".ui.dashboard.ChenthuranFragment">
 
     <LinearLayout
         android:id="@+id/linLayout"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="347dp"
+        android:layout_height="362dp"
         android:orientation="vertical">
 
         <LinearLayout
@@ -26,7 +26,7 @@
                 android:id="@+id/ButtonStart"
                 android:layout_width="89dp"
                 android:layout_height="wrap_content"
-                android:text="Start">
+                android:text="@string/Start">
 
             </Button>
 
@@ -34,9 +34,16 @@
                 android:id="@+id/ButtonStop"
                 android:layout_width="92dp"
                 android:layout_height="wrap_content"
-                android:text="Stop">
+                android:text="@string/Stop">
 
             </Button>
+
+            <Spinner
+                android:id="@+id/chenthuran_frame_speed"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:entries="@array/frame_speed" />
         </LinearLayout>
 
         <LinearLayout
@@ -48,7 +55,8 @@
             <ImageView
                 android:id="@+id/ImageView_Boy"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
 
             </ImageView>
 

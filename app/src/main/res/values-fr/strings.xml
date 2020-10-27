@@ -10,6 +10,8 @@
     <string name="chenstudentInfo">Chenthuran Dharmapalan 301077615</string>
     <string name="clear_pen">Clear Pen</string>
     <string name="pen_option">Use Pen</string>
+    <string name="Start">Start</string>
+    <string name="Stop">Stop</string>
 
     <string-array name="pen_size">
         <item>Black</item>

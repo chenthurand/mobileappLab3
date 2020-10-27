@@ -2,12 +2,14 @@
 
 <resources>
     <string name="app_name">ChenthuranLab3</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_home">Canvas</string>
+    <string name="title_dashboard">Animation</string>
+    <string name="title_notifications">Tweened</string>
     <string name="chenstudentInfo">Chenthuran Dharmapalan 301077615</string>
     <string name="clear_pen">Clear Pen</string>
     <string name="pen_option">Use Pen</string>
+    <string name="Start">Start</string>
+    <string name="Stop">Stop</string>
 
     <string-array name="pen_size">
         <item>Black</item>
@@ -19,6 +21,13 @@
         <item>4f</item>
         <item>8f</item>
         <item>12f</item>
+    </string-array>
+
+    <string-array name="frame_speed">
+        <item>0.1 Sec</item>
+        <item>0.15 Sec</item>
+        <item>0.2 Sec</item>
+        <item>0.25 Sec</item>
     </string-array>
 
 </resources>
