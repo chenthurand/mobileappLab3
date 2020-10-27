@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Chenthuran Dharmapalan, Student Number: 301077615, Section: 002 -->
+
+<resources>
+    <string name="app_name">ChenthuranLab3</string>
+    <string name="title_home">La Maison</string>
+    <string name="title_dashboard">Tableau de bord</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
